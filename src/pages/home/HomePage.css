@@ -1,0 +1,275 @@
+main{
+    width: 100%;
+    min-height:100vh;
+    background-color: #ece3e3;
+  
+}
+header{
+    width: 100%;
+    height: 4rem;
+    background-color:#FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.left-side input{
+    margin-left: 1rem;
+    width:280px;
+    height: 2rem ;
+    font-size: 1.5rem;
+    padding: 10px;
+    border-radius: 5px;
+}
+.right-side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.right-side ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right-side ul li{
+    margin-left: 2rem;
+    /* padding-left: 1rem; */
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.right-side ul li img{
+    border-radius: 50%;
+}
+p span img{
+    width: 15px;
+    height: 15px;
+}
+ul::after{
+    content: '';
+    position: absolute;
+    right: 4rem;
+    height: 3.5rem;
+    width: 2px;
+    background-color:rgb(214, 206, 190);
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+article{
+    margin-left: 2rem;
+    display: grid;
+    grid-template-columns: 25vw 40vw 35vw ;
+    margin-top: 1rem;
+   
+}
+.mainside{
+    width: 20rem;
+    height: 15rem;
+    position: relative;
+    display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-rows:20% 40% 20% 20%;
+  margin-top: 1rem;
+  background-color:#FFFFFF;
+
+}
+.topside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.topside img{
+    width: 100%;
+    height: 3rem;
+    /* position: absolute;
+    top: 0px;
+    left: 0; */
+    margin-bottom: 1rem;
+}
+.personal-img{
+    position: absolute;
+    left: 8.5rem;
+    top: 1rem;
+   
+}
+.personal-img img{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+
+}
+.sidesection{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    align-items: center;
+    width: 20rem;
+
+}
+hr{
+    width: 80%;
+  display: block;
+  margin-left: 2.5rem;
+  
+}
+.diffr{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 1rem;
+}
+.downside{
+    width: 20rem;
+    background-color:#FFFFFF;
+    list-style: none;
+    margin-top: 1rem;
+    position: relative;
+}
+.downside ul{
+    list-style: none;
+    padding: 1rem;
+}
+.downside ul li{
+    margin-bottom: 1rem;
+}
+.plusicon{
+    position: absolute;
+    right: 1rem;
+    top:4rem;
+}
+.plusicon img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.discover{
+   padding: 1rem;
+   color: rgb(163, 158, 152);
+   line-height: 2px;
+   text-transform: capitalize;
+   cursor: pointer;
+}
+.midside{
+    width: 30rem;
+    height: 8rem;
+    background-color:#FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 5px;
+}
+.midside form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 0;
+}
+.midside form label img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+.midside form label{
+    align-content: center;
+}
+.midside form input{
+    width: 20rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    align-content: center;
+  
+}
+.midside ul li img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    padding: 3px;
+}
+.midside ul{
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+.midside ul li{
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 30rem;
+    background-color:#FFFFFF;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+.title-post{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+}
+.profil-pic img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+}
+.post-img{
+    width: 100%;
+    height: 15rem;
+    margin-top: 1rem;
+}
+.post-img img{
+    width: 30rem;
+    height: 15rem;
+}
+.rightside{
+    width: 22rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    background-color:#FFFFFF;
+    padding: 1rem;
+}
+.header-rightside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rightside ul{
+    display: flex;
+    flex-direction: column;
+}
+.rightside ul li{
+    display: flex;
+    margin-bottom: 1rem ;
+    margin-top: 1rem;
+}
+.rightside ul li img{
+    margin-right: 1rem;
+}
+.btn-right p{
+    margin-bottom: 3px;
+}
